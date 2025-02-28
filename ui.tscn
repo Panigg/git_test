@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dpnjwy3vkqk63"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="."]
+offset_left = 30.0
+offset_top = 10.0
+offset_right = 38.0
+offset_bottom = 18.0
