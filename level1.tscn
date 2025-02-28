@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://cw5egdk41si7s"]
 
-[ext_resource type="PackedScene" uid="uid://dde5nwg6aeiy2" path="res://bird_demo.tscn" id="1_400yj"]
+[ext_resource type="PackedScene" uid="uid://1wc7x2nyap70" path="res://bird.tscn" id="2_dfwsq"]
 [ext_resource type="Texture2D" uid="uid://c2uwc7o13fefd" path="res://HDRI/kloofendal_48d_partly_cloudy_puresky_2k.hdr" id="2_ls85s"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_kt0fx"]
@@ -16,11 +16,10 @@ sky_rotation = Vector3(0, -2.1293, 0)
 
 [node name="Node3D" type="Node3D"]
 
-[node name="bird" parent="." instance=ExtResource("1_400yj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.579884, -1)
-
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_8fp37")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.939435, 2.13156)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00750613, 0.730465, 3.40912)
+
+[node name="bird" parent="." instance=ExtResource("2_dfwsq")]
