@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://1wc7x2nyap70"]
+
+[ext_resource type="PackedScene" uid="uid://cfwv00jr12vwb" path="res://bird.fbx" id="1_v3mek"]
+
+[node name="bird" instance=ExtResource("1_v3mek")]
